@@ -1,0 +1,170 @@
+:root{
+	font-size: 16px;
+}
+
+.parent{
+	height: 260vh;
+	background-color: none;
+	font-size: 16px;
+}
+
+.h1{
+	color:grey;
+	text-align:center;
+	font-family: sans-serif;
+	font-size: 1.2rem;
+}
+
+.h3{
+	background: radial-gradient(skyblue, darkblue);
+	text-align: center;
+	height: 10vh;
+	font-size: 2.1rem;
+	color: white;
+	font-family: cursive;
+}
+
+.h2{
+	background: linear-gradient(black, skyblue);
+	text-align: center;
+	height: 7vh;
+	width:40%;
+	font-size: 1.2rem;
+	color: white;
+	font-family: serif;
+}
+
+.h4{
+	 background: darkblue;
+	 color:white;
+	 width:100%;
+	 text-align: center;
+	 margin:0%;
+	 font-size: 0.8rem;
+	 font-family: sans-serif;
+}
+
+.parent1{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+}
+
+.item{
+	margin: 2%;
+	padding: 0.5%;
+   
+}
+
+.item .icon{
+	border: 1px solid #35eea4;
+    border-radius: 125px;
+    box-shadow: 0px 3px 20px 2px blue;
+	width: 35vh;
+	height: 40vh;
+}
+
+.item .screen{
+	border: 1px solid #35eea4;
+	border-radius: 5px;
+    box-shadow: 0px 3px 20px 2px black;
+	width: 60%;
+	height: 40vh;
+}
+
+.logo{
+	margin:3%;
+	text-align: center;
+}
+
+.logo .logoMongo{
+	border: 1px solid #35eea4;
+    border-radius: 35px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 0px;
+    box-shadow: 0px 3px 20px 2px green;
+	width: 50%;
+	height: 6%;
+}
+
+.logo .logoExpress{
+	border: 1px solid #35eea4;
+    border-radius: 35px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 3px 20px 2px green;
+	width: 50%;
+	height: 6%;
+}
+
+.logo .logoAngular{
+	border: 1px solid #35eea4;
+    border-radius: 35px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 3px 20px 2px green;
+	width: 50%;
+	height: 6%;
+}
+
+.logo .logoNode{
+	border: 1px solid #35eea4;
+    border-radius: 35px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 3px 20px 2px green;
+	width: 50%;
+	height: 6%;
+}
+
+.logoContent{
+    color: grey;
+    font-size: 1.4rem;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.tech{
+    color:grey;
+    font-size: 1rem;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+p::first-letter {
+font-weight: 800;
+font-size: 4rem;
+color: grey;
+}
+
+div:hover {
+background-color: black;
+}
+
+@media screen and (min-width:768px){
+	.item{
+		width: 45%;
+	}
+	.logo{
+		width: 18%;
+	}
+}
+
+@media screen and (min-width:480px) and (max-width:767px){
+	.item{
+		width: 45%;
+	}
+	.logo{
+		width: 40%;
+	}
+}
+
+@media screen and (max-width:480px){
+	.item{
+		width: 95%;
+	}
+	.logo{
+		width: 92%;
+	}
+}
